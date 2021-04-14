@@ -1,0 +1,27 @@
+PODS:
+  - Masonry (1.1.0)
+  - YJCycleCollectionView (0.0.1)
+  - YJMarqueeView (0.0.1):
+    - Masonry (= 1.1.0)
+    - YJCycleCollectionView (= 0.0.1)
+
+DEPENDENCIES:
+  - YJMarqueeView (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Masonry
+    - YJCycleCollectionView
+
+EXTERNAL SOURCES:
+  YJMarqueeView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  YJCycleCollectionView: 16531893a50e4d12824ee47e1e762bd6afb6e4e4
+  YJMarqueeView: b02c7980472920156615f4468a88698a2ad49ebc
+
+PODFILE CHECKSUM: 1b1fa48427652142f932d27cad39bf6d69ae83e3
+
+COCOAPODS: 1.10.1
