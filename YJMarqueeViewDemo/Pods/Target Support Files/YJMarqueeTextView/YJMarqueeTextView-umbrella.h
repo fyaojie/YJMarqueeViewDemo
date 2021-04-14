@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double YJMarqueeViewVersionNumber;
-FOUNDATION_EXPORT const unsigned char YJMarqueeViewVersionString[];
+FOUNDATION_EXPORT double YJMarqueeTextViewVersionNumber;
+FOUNDATION_EXPORT const unsigned char YJMarqueeTextViewVersionString[];
 

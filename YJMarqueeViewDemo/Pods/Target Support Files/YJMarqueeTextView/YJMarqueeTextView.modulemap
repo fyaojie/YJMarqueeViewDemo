@@ -1,0 +1,6 @@
+framework module YJMarqueeTextView {
+  umbrella header "YJMarqueeTextView-umbrella.h"
+
+  export *
+  module * { export * }
+}

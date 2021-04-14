@@ -1,10 +1,10 @@
 ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
 CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/Masonry" "${PODS_CONFIGURATION_BUILD_DIR}/YJCycleCollectionView" "${PODS_CONFIGURATION_BUILD_DIR}/YJMarqueeView"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/Masonry" "${PODS_CONFIGURATION_BUILD_DIR}/YJCycleCollectionView" "${PODS_CONFIGURATION_BUILD_DIR}/YJMarqueeTextView"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/Masonry/Masonry.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/YJCycleCollectionView/YJCycleCollectionView.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/YJMarqueeView/YJMarqueeView.framework/Headers"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/Masonry/Masonry.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/YJCycleCollectionView/YJCycleCollectionView.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/YJMarqueeTextView/YJMarqueeTextView.framework/Headers"
 LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
-OTHER_LDFLAGS = $(inherited) -framework "Foundation" -framework "Masonry" -framework "UIKit" -framework "YJCycleCollectionView" -framework "YJMarqueeView"
+OTHER_LDFLAGS = $(inherited) -framework "Foundation" -framework "Masonry" -framework "UIKit" -framework "YJCycleCollectionView" -framework "YJMarqueeTextView"
 OTHER_SWIFT_FLAGS = $(inherited) -D COCOAPODS
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)

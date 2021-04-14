@@ -15,5 +15,5 @@ target 'YJMarqueeViewDemo' do
   target 'YJMarqueeViewDemoUITests' do
     # Pods for testing
   end
-  pod 'YJMarqueeView', :path => '../'
+  pod 'YJMarqueeTextView', :path => '../'
 end

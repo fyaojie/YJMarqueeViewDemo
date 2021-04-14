@@ -6,7 +6,7 @@
 //
 
 import UIKit
-import YJMarqueeView
+import YJMarqueeTextView
 import YJCycleCollectionView
 
 class ViewController: UIViewController {

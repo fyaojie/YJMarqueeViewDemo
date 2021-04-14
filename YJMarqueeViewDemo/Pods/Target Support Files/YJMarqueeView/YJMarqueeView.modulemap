@@ -1,6 +1,0 @@
-framework module YJMarqueeView {
-  umbrella header "YJMarqueeView-umbrella.h"
-
-  export *
-  module * { export * }
-}

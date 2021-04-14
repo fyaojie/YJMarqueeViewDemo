@@ -1,12 +1,12 @@
 PODS:
   - Masonry (1.1.0)
   - YJCycleCollectionView (0.0.1)
-  - YJMarqueeView (0.0.1):
+  - YJMarqueeTextView (0.0.1):
     - Masonry (= 1.1.0)
     - YJCycleCollectionView (= 0.0.1)
 
 DEPENDENCIES:
-  - YJMarqueeView (from `../`)
+  - YJMarqueeTextView (from `../`)
 
 SPEC REPOS:
   trunk:
@@ -14,14 +14,14 @@ SPEC REPOS:
     - YJCycleCollectionView
 
 EXTERNAL SOURCES:
-  YJMarqueeView:
+  YJMarqueeTextView:
     :path: "../"
 
 SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   YJCycleCollectionView: 16531893a50e4d12824ee47e1e762bd6afb6e4e4
-  YJMarqueeView: b02c7980472920156615f4468a88698a2ad49ebc
+  YJMarqueeTextView: b565e1a8bb095b9b36b90678f28b719142b363b4
 
-PODFILE CHECKSUM: 1b1fa48427652142f932d27cad39bf6d69ae83e3
+PODFILE CHECKSUM: ccc8cdfbc2bdb5e0becef222f5b666aef9bd5e1e
 
 COCOAPODS: 1.10.1
