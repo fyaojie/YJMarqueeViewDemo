@@ -5,7 +5,7 @@ Pod::Spec.new do |spec|
   spec.version      = "0.0.1"
   spec.summary      = "基于swift 循环视图实现"
 
-  spec.description  = "跑马灯,使用更方便"
+  spec.description  = "跑马灯,使用更方便, 支持自定义  目前主要是文字方面的跑马灯效果"
 
   spec.homepage     = "https://github.com/fyaojie"
 
@@ -19,7 +19,8 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :git => "https://github.com/fyaojie/YJMarqueeViewDemo.git", :tag => spec.version }
 
-  spec.source_files  = "YJMarqueeTextView/*.{swift}"
+  spec.source_files  = "YJMarqueeTextView/*.swift"
+  
   spec.swift_version= "5.0"
   spec.requires_arc = true
   spec.dependency 'Masonry', '1.1.0'

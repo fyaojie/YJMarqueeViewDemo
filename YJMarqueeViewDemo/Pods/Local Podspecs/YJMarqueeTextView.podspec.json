@@ -2,7 +2,7 @@
   "name": "YJMarqueeTextView",
   "version": "0.0.1",
   "summary": "基于swift 循环视图实现",
-  "description": "跑马灯,使用更方便",
+  "description": "跑马灯,使用更方便, 支持自定义  目前主要是文字方面的跑马灯效果",
   "homepage": "https://github.com/fyaojie",
   "license": {
     "type": "MIT",
@@ -18,7 +18,7 @@
     "git": "https://github.com/fyaojie/YJMarqueeViewDemo.git",
     "tag": "0.0.1"
   },
-  "source_files": "YJMarqueeTextView/*.{swift}",
+  "source_files": "YJMarqueeTextView/*.swift",
   "swift_versions": "5.0",
   "requires_arc": true,
   "dependencies": {
